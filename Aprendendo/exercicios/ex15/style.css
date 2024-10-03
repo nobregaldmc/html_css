@@ -1,0 +1,23 @@
+
+
+body{
+    background-color: rgb(185, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+h2{
+    color: darkred;
+    background-color: rgb(255, 255, 255);
+}
+
+p{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}

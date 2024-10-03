@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <h1>
+        Outras Formatações
+    </h1>
+
+    <h2>
+        Código-Fonte / Pré-Formatação
+    </h2>
+    <p>
+        O comando d<code>ocument.getElementById('teste')</code> é escrito em linguagem JavaScript <!-- Para resolver o problema de espaçamento entre as letras; usando a tag <code> todas as letras terão o mesmo espaçamento -->
+    </p>
+
+    <pre> <!-- vai respeitar espaços, quebras de linha e tabulações -->
+        <code>
+                int main() {
+                    int numero;
+        
+                    // Solicita ao usuário para inserir um número
+                    printf("Digite um número inteiro: ");
+                    scanf("%d", &numero);
+        
+                    // Verifica se o número é par ou ímpar e imprime o resultado
+                    if(numero % 2 == 0) {
+                        printf("%d é um número par.\n", numero);
+                    } else {
+                        printf("%d é um número ímpar.\n", numero);
+                    }
+        
+                    return 0;
+                }
+        
+        </code>
+    </pre>
+
+    <h2>
+        Citações Simples
+    </h2>
+    <p>
+        Como diria o pai de um amigo:<q> o computador é um burro muito rápido</q>  <!-- a tag Q que vem de quote/citações coloca o texto entre aspas -->
+    </p>
+
+    <h2>
+        Citações Completas
+    </h2>
+    <p>
+        Segundo Jeff Nobel, no seu livro HTML para leigos: <blockquote>A diferença entre elementos inline e um bloco de texto importante. Os elementos HTML neste capítulo descrevem os blocos de texto.</blockquote> <!-- a tag <blockquote> é um bloco de citação que coloca as palavras levemente deslocadas e com quebra de linha -->
+    </p>
+
+    <h2>
+        Abreviações
+    </h2>
+    <p>
+        Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando ! <!-- ABBR é uma tag que sinaliza uma abreviação-->
+    </p>
+
+    <h2>
+        Texto invertido
+    </h2>
+    <p>
+        <bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo>
+    </p> <!-- A tag bdo l ou bdo r vai inverter as palavras -->
+
+</body>
+</html>
